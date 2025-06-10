@@ -719,6 +719,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &982348932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 982348934}
+  - component: {fileID: 982348933}
+  m_Layer: 0
+  m_Name: Star
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &982348933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982348932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ce7d4b48a345644da16f1adafeac828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &982348934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982348932}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 468.77493, y: 264.95526, z: 86.24097}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1088668920
 GameObject:
   m_ObjectHideFlags: 0
@@ -1090,163 +1134,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1558968800}
   m_CullTransparentMesh: 1
---- !u!1 &1560518540
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1560518548}
-  - component: {fileID: 1560518547}
-  - component: {fileID: 1560518546}
-  - component: {fileID: 1560518545}
-  - component: {fileID: 1560518544}
-  - component: {fileID: 1560518543}
-  - component: {fileID: 1560518542}
-  - component: {fileID: 1560518541}
-  m_Layer: 0
-  m_Name: DeckManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1560518541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560518540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 097e66e81b31a7247b291f2493881124, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardName: "\uC218\uAC15\uC0DDC"
-  cardImage: {fileID: 0}
-  cardGrad: 3
-  weight: 10
---- !u!114 &1560518542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560518540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 097e66e81b31a7247b291f2493881124, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardName: "\uC218\uAC15\uC0DDB"
-  cardImage: {fileID: 0}
-  cardGrad: 2
-  weight: 5
---- !u!114 &1560518543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560518540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 097e66e81b31a7247b291f2493881124, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardName: "\uC218\uAC15\uC0DDA"
-  cardImage: {fileID: 0}
-  cardGrad: 1
-  weight: 3
---- !u!114 &1560518544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560518540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 097e66e81b31a7247b291f2493881124, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardName: "\uC591\uD604\uC11D \uAC15\uC0AC\uB2D8"
-  cardImage: {fileID: 0}
-  cardGrad: 0
-  weight: 1
---- !u!114 &1560518545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560518540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 097e66e81b31a7247b291f2493881124, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardName: "\uAE40\uC120\uBBFC \uAC15\uC0AC\uB2D8"
-  cardImage: {fileID: 0}
-  cardGrad: 0
-  weight: 1
---- !u!114 &1560518546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560518540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 097e66e81b31a7247b291f2493881124, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardName: "\uC548\uC911\uC7AC \uAC15\uC0AC\uB2D8"
-  cardImage: {fileID: 0}
-  cardGrad: 0
-  weight: 1
---- !u!114 &1560518547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560518540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05b76c96555e6954cb268b447763ad78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deck:
-  - {fileID: 1560518546}
-  - {fileID: 1560518546}
-  - {fileID: 1560518544}
-  - {fileID: 1560518544}
-  - {fileID: 1560518544}
-  - {fileID: 1560518544}
-  - {fileID: 1560518544}
-  - {fileID: 1560518544}
-  total: 0
-  result: []
---- !u!4 &1560518548
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560518540}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.2724266, y: -9.419951, z: 46.612015}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1638388787
 GameObject:
   m_ObjectHideFlags: 0
@@ -1494,7 +1381,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!1 &2021762648
 GameObject:
@@ -1684,6 +1571,6 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
-  - {fileID: 1560518548}
   - {fileID: 1316266757}
   - {fileID: 540483857}
+  - {fileID: 982348934}

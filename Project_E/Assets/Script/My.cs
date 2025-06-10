@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class My : MonoBehaviour
 {
-    private string name = "이원림";
+    private string myname = "이원림";
     private int age = 25;
     private float height = 161.5f;
     private string mbti = "INTJ";
@@ -26,7 +26,7 @@ public class My : MonoBehaviour
 
     public void SelfIntroduction()
     {
-        Debug.Log("제 이름은" + name + "입니다.");
+        Debug.Log("제 이름은" + myname + "입니다.");
         Debug.Log($"저의 나이는{age}살 입니다.");
     }
 
